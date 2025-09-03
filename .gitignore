@@ -1,0 +1,11 @@
+.byebug_history
+.idea/
+.rspec
+.ruby-version
+coverage/
+
+Gemfile.lock
+
+*.gem
+
+Gemfile.lock

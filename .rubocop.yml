@@ -1,0 +1,72 @@
+plugins:
+  rubocop-rspec
+
+AllCops:
+  NewCops: enable
+
+Style/Documentation:
+  Enabled: false
+
+Style/DocumentDynamicEvalDefinition:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 20
+
+Metrics/ModuleLength:
+  Max: 200
+
+Metrics/BlockLength:
+  Exclude:
+    - spec/**/*.rb
+
+Layout/LineLength:
+  Exclude:
+    - spec/**/*.rb
+
+Lint/ConstantDefinitionInBlock:
+  Exclude:
+    - spec/**/*.rb
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: start_of_line
+
+Rspec/MultipleExpectations:
+  Max: 3
+
+Style/TrailingUnderscoreVariable:
+  Enabled: false
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/EachWithObject:
+  Enabled: false
+
+Style/HashSyntax:
+  Enabled: false
+
+Lint/BooleanSymbol:
+  Enabled: false
+
+Style/HashConversion:
+  Enabled: false
+
+Style/RedundantArrayConstructor:
+  Enabled: false
+
+Style/RedundantSelfAssignment:
+  Enabled: false
+
+Style/MethodCallWithoutArgsParentheses:
+  Enabled: false
+
+Style/ArgumentsForwarding:
+  Enabled: false
+
+Naming/BlockForwarding:
+  Enabled: false
+
