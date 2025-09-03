@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors = ['Tomas Milsimer']
   spec.email = ['tomas.milsimer@protonmail.com']
 
-  spec.summary = 'Data'
+  spec.summary = 'Minimalistic data-class definition'
   spec.description = <<~DESC
     Easy definition of data classes with subclassing support
     and flexible constructor signatures.

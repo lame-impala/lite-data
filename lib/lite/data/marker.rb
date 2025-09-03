@@ -2,8 +2,7 @@
 
 module Lite
   module Data
-    module Version
-      VERSION = '0.0.3'
+    module Marker
     end
   end
 end

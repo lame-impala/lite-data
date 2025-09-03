@@ -2,8 +2,6 @@
 
 module Lite
   module Data
-    module Version
-      VERSION = '0.0.3'
-    end
+    class Error < StandardError; end
   end
 end
